@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+nav ul li{
+    text-decoration: none;
+    color: pink;
+    display: inline;
+    padding: 25px 0; 
+    margin-left: 40px;
+    font-size: 20px; 
+    font-family: 'Rubik', sans-serif
+}
+header nav{
+    z-index: 9;
+}
+.img{
+    position: relative;
+    top: 50px;
+    gap: 300px;
+
+}
+article h2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 30px;
+    font-style: 'Rubik';
+    color: rgb(63, 2, 14);
+}
+section article i{
+    color: brown;
+    font-size: 100px;
+    padding-top: 100px;
+}
+main h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.boton{
+    background-color: #2e312e;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    margin: 10px auto;
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+.main-principal h1{
+    color: black;
+    font-size: 60px;
+    font-style: 'Rubik';
+    justify-content: space-evenly;
+    text-align: center;
+}
+footer{
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: none;
+}
+h1{
+    font-style: 'Rubik';
+    font-size: 40px;
+    color: rgb(12, 12, 12);
+    text-align: left;
+    padding: 10px 0 ;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-style: 'Rubik';
+    font-size: 24px;
+}
+footer ol li a{
+    text-decoration: none;
+    text-align: left;
+}
+p{
+    color: black;
+    font-style: 'Rubik';
+    font-size: 20px;
+}
+/*font-family: 'Rubik', sans-serif; */
+i{
+    font-size: 30px;
+}
+/* fin estilos generales*/
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+    margin-right: 40px;
+}
+footer{
+border-top: 2px solid;
+border-color: black;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+background-color: bisque;
+justify-content: space-between;
+margin-top: 60px
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    background-color: bisque;
+    height: 250px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-propio{
+    background-color: plum;
+    color: black;
+    border-color: black;
+}
+.productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-top: 60px;
+}
